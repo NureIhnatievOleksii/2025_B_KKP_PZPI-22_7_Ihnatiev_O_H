@@ -1,0 +1,18 @@
+.button {
+    cursor: pointer;
+    width: 310px;
+    height: 40px;
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFAC12;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+}

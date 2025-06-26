@@ -1,0 +1,41 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 50px ;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.topButton {
+    width: 260px;
+    height: 55px;
+    border-radius: 30px;
+    max-height: 540px;
+    overflow-y: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100%;
+}
+
+/*  */
+.goBack{
+    background: #E7E7E7;
+    color: #8C8C8C;
+}
+.buttonRow{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
